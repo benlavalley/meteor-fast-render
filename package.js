@@ -16,7 +16,7 @@ Package.onUse(function(api) {
 	api.mainModule('lib/client/fast_render.js', 'client')
 	api.mainModule('lib/server/namespace.js', 'server')
 	api.use('staringatlights:inject-data@2.3.1', ['client', 'server'])
-	api.use('chuangbo:cookie@1.1.0', 'client')
+	api.use('chuangbo:cookie@1.1.1', 'client')
 	api.use('meteorhacks:picker@1.0.3', 'server')
 	api.use('lamhieu:meteorx@2.0.1', 'server')
 

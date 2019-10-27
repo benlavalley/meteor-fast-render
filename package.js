@@ -8,7 +8,8 @@ Package.describe({
 })
 
 Npm.depends({
-	connect: '3.7.0',
+	// connect: '3.7.0',
+	'cookie-parser': '1.4.4',
 })
 
 Package.onUse(function(api) {

@@ -53,7 +53,7 @@ server-render@0.3.1
 service-configuration@1.0.11
 socket-stream-client@0.2.2
 staringatlights:fast-render@3.1.1
-staringatlights:inject-data@2.3.0
+staringatlights:inject-data@2.3.2
 tinytest@1.1.0
 tracker@1.2.0
 underscore@1.0.10

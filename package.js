@@ -18,7 +18,7 @@ Package.onUse(function(api) {
 	api.mainModule('lib/server/namespace.js', 'server')
 	api.use('staringatlights:inject-data@2.3.2', ['client', 'server'])
 	api.use('chuangbo:cookie@1.1.2', 'client')
-	api.use('meteorhacks:picker@1.0.6', 'server')
+	api.use('meteorhacks:picker@1.0.7', 'server')
 	api.use('lamhieu:meteorx@2.1.3', 'server')
 
 	api.use(

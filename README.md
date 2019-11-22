@@ -1,3 +1,8 @@
+### New
+
+Updated with optional cookie support for domain, secure, and SameSite parameters.
+Requires updated meteor-cookies package.
+
 # Fast Render 3 (Updated for Meteor 1.6.1)
 
 Fast Render is back!

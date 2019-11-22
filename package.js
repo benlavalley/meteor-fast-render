@@ -2,13 +2,12 @@
 Package.describe({
 	summary:
 		'Render your app before the DDP connection even comes alive - magic?',
-	version: '3.2.2',
+	version: '3.2.3',
 	git: 'https://github.com/abecks/meteor-fast-render',
 	name: 'staringatlights:fast-render',
 })
 
 Npm.depends({
-	// connect: '3.7.0',
 	'cookie-parser': '1.4.4',
 })
 
@@ -17,7 +16,7 @@ Package.onUse(function(api) {
 	api.mainModule('lib/client/fast_render.js', 'client')
 	api.mainModule('lib/server/namespace.js', 'server')
 	api.use('staringatlights:inject-data@2.3.2', ['client', 'server'])
-	api.use('chuangbo:cookie@1.1.2', 'client')
+	api.use('chuangbo:cookie@1.1.3', 'client')
 	api.use('meteorhacks:picker@1.0.7', 'server')
 	api.use('lamhieu:meteorx@2.1.3', 'server')
 

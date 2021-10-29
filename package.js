@@ -13,7 +13,7 @@ Npm.depends({
 })
 
 Package.onUse(function(api) {
-	api.versionsFrom('METEOR@1.8.1')
+	api.versionsFrom('METEOR@2.5')
 	api.mainModule('lib/client/fast_render.js', 'client')
 	api.mainModule('lib/server/namespace.js', 'server')
 	api.use('staringatlights:inject-data@2.3.2', ['client', 'server'])
